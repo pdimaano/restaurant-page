@@ -1,1 +1,1 @@
-# restaurant-page
+Dynamically render a restaurant page using HTML, CSS, Javascript and webpack.
