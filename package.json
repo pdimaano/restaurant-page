@@ -1,0 +1,26 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "restaurant page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdimaano/restaurant-page.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Philip Dimaano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdimaano/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/pdimaano/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
