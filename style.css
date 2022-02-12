@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6rem;
     color: var(--font-color);
 }
@@ -25,7 +25,7 @@ header {
 
 button {
     font-family: inherit;
-    color: inherit;
+    background-color: var(--background-light);
     cursor: pointer;
     outline: none;
 }
@@ -45,18 +45,20 @@ button {
     justify-content: center;
     width: 100%;
     padding: 1rem;
-    background-color: var(--background-dark);
     border-bottom: 1px solid var(--border-color);
+    background-color: var(--background-dark);
+
 }
 
 .restaurant-name {
     margin-bottom: 1rem;
-    font-size: 8rem;
+    font-size: 6rem;
 }
 
 .button-nav {
-    padding: 1.5rem;
+    padding: 1rem;
     font-size: 2rem;
+    margin: 0 1rem;
 }
 
 .button-nav.active {
@@ -66,10 +68,11 @@ button {
 .main {
     max-width: 600px;
     padding: 3rem;
-    margin: 5rem 0;
+    margin: 3rem 0;
     font-size: 2rem;
     background-color: var(--background-light);
     border: 1px solid var(--border-color);
+    box-shadow: 2px 0 10px #0000004f
 }
 
 .home {
@@ -77,13 +80,13 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 550px;
-    width: 630px;
+    text-align: center;
+    height: 500px;
 }
 
 .menu {
     display: grid;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .menu-item {
@@ -92,13 +95,14 @@ button {
     align-items: center;
     justify-content: center;
     height: 300px;
-    padding: 4rem;
+    padding: 3rem;
     cursor: pointer;
     background-color: var(--background-light);
 }
 
 .menu-item img {
     width: 60%;
+    border: 1px solid #000000;
 }
 
 .menu-item p {
@@ -112,5 +116,4 @@ button {
     align-items: center;
     justify-content: center;
     height: 530px;
-    width: 630px;
 }
