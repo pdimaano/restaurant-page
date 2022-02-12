@@ -1,0 +1,73 @@
+:root {
+    --font-color: #eee;
+    --border-color: #000000;
+    --background-dark: #2044e2;
+    --background-light: #5edce0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.6rem;
+    color: var(--font-color);
+}
+
+header {
+    font-size: 2.4rem;
+}
+
+button {
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--background-main);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.restaurant-name {
+    margin-bottom: 1rem;
+    font-size: 8rem;
+}
+
+.button-nav {
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+
+.button-nav.active {
+    border: 2px solid var(--font-color);
+}
+
+.main {
+    max-width: 600px;
+    padding: 3rem;
+    margin: 5rem 0;
+    font-size: 2rem;
+    background-color: var(--background-light);
+    border: 1px solid var(--border-color);
+}
