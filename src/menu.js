@@ -16,8 +16,8 @@ function createMenu() {
     );
     menu.appendChild(
         createMenuItem(
-            "Churro",
-            "Covered in cinnamon sugar"
+            "Pretzel",
+            "Freshly baked & lightly salted"
         )
     );
 
@@ -35,8 +35,8 @@ function createMenuItem(name, description) {
     foodDescription.textContent = description;
 
     const foodImage = document.createElement("img");
-    foodImage.src = 
-    foodImage.alt = 
+    foodImage.src = `images/${name.toLowerCase()}.jpeg`;
+    foodImage.alt = `${name}`;
 
     menuItem.appendChild(foodImage);
     menuItem.appendChild(foodName);
