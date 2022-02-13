@@ -6,7 +6,7 @@ function createContact() {
     phoneNumber.textContent = '800-420-1738'
 
     const address = document.createElement('p')
-    address.textContent = 'Somewhere over the rainbow'
+    address.textContent = 'Somewhere Over The Rainbow'
 
     contact.appendChild(phoneNumber)
     contact.appendChild(address)
