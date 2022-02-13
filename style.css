@@ -17,6 +17,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6rem;
     color: var(--font-color);
+    background-color: #d8d2d2;
 }
 
 header {
@@ -46,17 +47,18 @@ button {
     width: 100%;
     padding: 1rem;
     border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 5px 7px #0000004f;
     background-color: var(--background-dark);
 
 }
 
 .restaurant-name {
     margin-bottom: 1rem;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .button-nav {
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 2rem;
     margin: 0 1rem;
 }
@@ -69,9 +71,10 @@ button {
     max-width: 600px;
     padding: 3rem;
     margin: 3rem 0;
-    font-size: 2rem;
+    font-size: 1.5rem;
     background-color: var(--background-light);
     border: 1px solid var(--border-color);
+    border-radius: 25px;
     box-shadow: 2px 0 10px #0000004f
 }
 
@@ -82,6 +85,15 @@ button {
     justify-content: center;
     text-align: center;
     height: 500px;
+}
+
+.home img {
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+.home p {
+    font-size: 2rem;
 }
 
 .menu {
@@ -108,6 +120,7 @@ button {
 .menu-item p {
     font-size: 1.5rem;
     text-align: center;
+    line-height: 3rem;
 }
 
 .contact {
@@ -116,4 +129,6 @@ button {
     align-items: center;
     justify-content: center;
     height: 530px;
+    line-height: 5rem;
+    font-size: 2rem;
 }
