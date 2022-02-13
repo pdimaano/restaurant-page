@@ -3,7 +3,7 @@ function createContact() {
     contact.classList.add('contact')
 
     const phoneNumber = document.createElement('p')
-    phoneNumber.textContent = '800-420-1738'
+    phoneNumber.textContent = 'Call 800-420-1738'
 
     const address = document.createElement('p')
     address.textContent = 'Somewhere Over The Rainbow'
